@@ -13,6 +13,7 @@ public class ShieldConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
+        // mvcMatchers to solve security issue implemented with help from David! (thanks, mate!)
         http
                 .authorizeRequests()
                 .mvcMatchers("/").permitAll()
