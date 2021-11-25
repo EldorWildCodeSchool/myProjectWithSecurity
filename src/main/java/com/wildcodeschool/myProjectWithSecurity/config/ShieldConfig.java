@@ -15,9 +15,13 @@ public class ShieldConfig extends WebSecurityConfigurerAdapter {
 
         http
                 .authorizeRequests()
-                .antMatchers("/").permitAll()
+                .mvcMatchers("/").permitAll()
+                .mvcMatchers("/avengers/assemble").hasRole("HERO")
+                .mvcMatchers("/secret-bases").hasRole("DIREX")
+                /*.antMatchers("/").permitAll()
                 .antMatchers("/avengers/assemble").hasRole("HERO")
                 .antMatchers("/secret-bases").hasRole("DIREX")
+                 */
                     .anyRequest().authenticated()
                     .and()
                 .formLogin()
