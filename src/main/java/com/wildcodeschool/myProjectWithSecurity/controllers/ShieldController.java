@@ -27,14 +27,14 @@ public class ShieldController {
                 "      font-size: 0;\n" +
                 "    }\n" +
                 "    100% {\n" +
-                "      font-size: 10rem;\n" +
+                "      font-size: 8rem;\n" +
                 "    }\n" +
                 "  }\n" +
                 "  </style>\n" +
                 "</head>\n" +
                 "<body>\n" +
                 "<center>\n" +
-                "    <br><br><h1 class=\"header-grow\">Welcome to the SHIELD</h1>\n" +
+                "    <br><br><h1 class=\"header-grow\">Welcome to the shield</h1>\n" +
                 "<br>\n" +
                 "<form method=\"get\" action=\"/avengers/assemble\">\n" +
                 "  <button type=\"submit\">Avengers</button>\n" +
@@ -83,6 +83,15 @@ public class ShieldController {
                 "<center>\n" +
                 "    <h1 class=\"header-grow\">Avengers ... Assemble!</h1>\n" +
                 "<br>\n" +
+                "<form method=\"get\" action=\"/avengers/assemble\">\n" +
+                "  <button type=\"submit\">Avengers</button>\n" +
+                "</form>\n" +
+                "<form method=\"get\" action=\"/secret-bases\">\n" +
+                "  <button type=\"submit\">Directors</button>\n" +
+                "</form>\n" +
+                "<form method=\"get\" action=\"/\">\n" +
+                "  <button type=\"submit\">Index</button>\n" +
+                "</form>\n" +
                 "<form method=\"get\" action=\"/logout\">\n" +
                 "  <button type=\"submit\">Logout</button>\n" +
                 "</form>\n" +
@@ -129,6 +138,15 @@ public class ShieldController {
                 "<p>London</p>\n" +
                 "<p>Madrid</p>\n" +
                 "\n" +
+                "<form method=\"get\" action=\"/avengers/assemble\">\n" +
+                "  <button type=\"submit\">Avengers</button>\n" +
+                "</form>\n" +
+                "<form method=\"get\" action=\"/secret-bases\">\n" +
+                "  <button type=\"submit\">Directors</button>\n" +
+                "</form>\n" +
+                "<form method=\"get\" action=\"/\">\n" +
+                "  <button type=\"submit\">Index</button>\n" +
+                "</form>\n" +
                 "<form method=\"get\" action=\"/logout\">\n" +
                 "  <button type=\"submit\">Logout</button>\n" +
                 "</form>\n" +
