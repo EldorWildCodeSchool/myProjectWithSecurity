@@ -27,7 +27,7 @@ public class ShieldController {
                 "      font-size: 0;\n" +
                 "    }\n" +
                 "    100% {\n" +
-                "      font-size: 8rem;\n" +
+                "      font-size: 10rem;\n" +
                 "    }\n" +
                 "  }\n" +
                 "  </style>\n" +
